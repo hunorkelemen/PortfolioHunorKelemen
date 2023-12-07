@@ -1,4 +1,3 @@
-// Work.js
 import React from 'react';
 import tetkoImg from '../Assets/tetkoImg.png';
 import Login from '../Assets/Login.png';
@@ -18,19 +17,18 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Project Item */}
           <div
-            style={{ backgroundImage: `url(${tetkoImg})` }} // Háttérkép beállítása a WorkImg fájlból
+            style={{ backgroundImage: `url(${tetkoImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover Effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://hunorkelemen.github.io/WorkImg/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/hunorkelemen/WorkImg">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
@@ -38,10 +36,9 @@ const Work = () => {
           </div>
           {/* Project Item */}
           <div
-            style={{ backgroundImage: `url(${Login})` }} // Háttérkép beállítása a WorkImg fájlból
+            style={{ backgroundImage: `url(${Login})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover Effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
