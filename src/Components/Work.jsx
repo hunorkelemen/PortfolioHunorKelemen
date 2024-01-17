@@ -1,6 +1,7 @@
 import React from 'react';
 import tetkoImg from '../Assets/tetkoImg.png';
 import Login from '../Assets/Login.png';
+import movie from '../Assets/movie.png';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Work = () => {
@@ -22,7 +23,7 @@ const Work = () => {
           >
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Tattoo Landing Page
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://hunorkelemen.github.io/WorkImg/">
@@ -41,13 +42,32 @@ const Work = () => {
           >
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Login Form App
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://hunorkelemen.github.io/Login.Register">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href="https://github.com/hunorkelemen/Login.Register">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Project Item */}
+          <div
+            style={{ backgroundImage: `url(${movie})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Movie search with API
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
